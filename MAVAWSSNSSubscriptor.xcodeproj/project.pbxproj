@@ -10,6 +10,14 @@
 		99725ADA216E45FC000AAE55 /* MAVAWSSNSSubscriptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99725AD0216E45FC000AAE55 /* MAVAWSSNSSubscriptor.framework */; };
 		99725ADF216E45FC000AAE55 /* MAVAWSSNSSubscriptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99725ADE216E45FC000AAE55 /* MAVAWSSNSSubscriptorTests.m */; };
 		99725AE1216E45FC000AAE55 /* MAVAWSSNSSubscriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 99725AD3216E45FC000AAE55 /* MAVAWSSNSSubscriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99725AF8216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 99725AF6216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.h */; };
+		99725AF9216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 99725AF7216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m */; };
+		99725AFA216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 99725AF7216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m */; };
+		99725AFD216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 99725AFB216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.h */; };
+		99725AFE216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99725AFC216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m */; };
+		99725AFF216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99725AFC216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m */; };
+		B319AD62104B7CE12787A3E6 /* libPods-MAVAWSSNSSubscriptorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C542CDF429422A9F7D7D1685 /* libPods-MAVAWSSNSSubscriptorTests.a */; };
+		F9923D02F7CF566A8AB85AAD /* libPods-MAVAWSSNSSubscriptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFFD25B58ABBF5B2D3221D9 /* libPods-MAVAWSSNSSubscriptor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BCB5C224DC0C467BF08B461 /* Pods-MAVAWSSNSSubscriptor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAVAWSSNSSubscriptor.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAVAWSSNSSubscriptor/Pods-MAVAWSSNSSubscriptor.release.xcconfig"; sourceTree = "<group>"; };
+		6AFFD25B58ABBF5B2D3221D9 /* libPods-MAVAWSSNSSubscriptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAVAWSSNSSubscriptor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8089EEBB2930111D979E9EED /* Pods-MAVAWSSNSSubscriptorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAVAWSSNSSubscriptorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAVAWSSNSSubscriptorTests/Pods-MAVAWSSNSSubscriptorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85E50C848DAABD2FDFAFB7A4 /* Pods-MAVAWSSNSSubscriptorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAVAWSSNSSubscriptorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAVAWSSNSSubscriptorTests/Pods-MAVAWSSNSSubscriptorTests.release.xcconfig"; sourceTree = "<group>"; };
 		99725AD0216E45FC000AAE55 /* MAVAWSSNSSubscriptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAVAWSSNSSubscriptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99725AD3216E45FC000AAE55 /* MAVAWSSNSSubscriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAVAWSSNSSubscriptor.h; sourceTree = "<group>"; };
 		99725AD4216E45FC000AAE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99725AD9216E45FC000AAE55 /* MAVAWSSNSSubscriptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAVAWSSNSSubscriptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99725ADE216E45FC000AAE55 /* MAVAWSSNSSubscriptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAVAWSSNSSubscriptorTests.m; sourceTree = "<group>"; };
 		99725AE0216E45FC000AAE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99725AF6216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAVAWSSNSSubscriptorConfiguration.h; sourceTree = "<group>"; };
+		99725AF7216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAVAWSSNSSubscriptorConfiguration.m; sourceTree = "<group>"; };
+		99725AFB216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAVAWSSNSSubscriptorManager.h; sourceTree = "<group>"; };
+		99725AFC216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAVAWSSNSSubscriptorManager.m; sourceTree = "<group>"; };
+		A566CF741800347CD80DC283 /* Pods-MAVAWSSNSSubscriptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAVAWSSNSSubscriptor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAVAWSSNSSubscriptor/Pods-MAVAWSSNSSubscriptor.debug.xcconfig"; sourceTree = "<group>"; };
+		C542CDF429422A9F7D7D1685 /* libPods-MAVAWSSNSSubscriptorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAVAWSSNSSubscriptorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9923D02F7CF566A8AB85AAD /* libPods-MAVAWSSNSSubscriptor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +63,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				99725ADA216E45FC000AAE55 /* MAVAWSSNSSubscriptor.framework in Frameworks */,
+				B319AD62104B7CE12787A3E6 /* libPods-MAVAWSSNSSubscriptorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50C547712C3FEF0189F8A7E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFD25B58ABBF5B2D3221D9 /* libPods-MAVAWSSNSSubscriptor.a */,
+				C542CDF429422A9F7D7D1685 /* libPods-MAVAWSSNSSubscriptorTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99725AC6216E45FC000AAE55 = {
 			isa = PBXGroup;
 			children = (
+				99725AF5216E7134000AAE55 /* Sources */,
 				99725AD2216E45FC000AAE55 /* MAVAWSSNSSubscriptor */,
 				99725ADD216E45FC000AAE55 /* MAVAWSSNSSubscriptorTests */,
 				99725AD1216E45FC000AAE55 /* Products */,
+				A7A93A58918159189D4A8D23 /* Pods */,
+				50C547712C3FEF0189F8A7E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +118,28 @@
 			path = MAVAWSSNSSubscriptorTests;
 			sourceTree = "<group>";
 		};
+		99725AF5216E7134000AAE55 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				99725AF6216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.h */,
+				99725AF7216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m */,
+				99725AFB216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.h */,
+				99725AFC216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A7A93A58918159189D4A8D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A566CF741800347CD80DC283 /* Pods-MAVAWSSNSSubscriptor.debug.xcconfig */,
+				0BCB5C224DC0C467BF08B461 /* Pods-MAVAWSSNSSubscriptor.release.xcconfig */,
+				8089EEBB2930111D979E9EED /* Pods-MAVAWSSNSSubscriptorTests.debug.xcconfig */,
+				85E50C848DAABD2FDFAFB7A4 /* Pods-MAVAWSSNSSubscriptorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +147,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99725AFD216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.h in Headers */,
+				99725AF8216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.h in Headers */,
 				99725AE1216E45FC000AAE55 /* MAVAWSSNSSubscriptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99725AE4216E45FC000AAE55 /* Build configuration list for PBXNativeTarget "MAVAWSSNSSubscriptor" */;
 			buildPhases = (
+				B16BD5E887BE79861F25D8D1 /* [CP] Check Pods Manifest.lock */,
 				99725ACB216E45FC000AAE55 /* Headers */,
 				99725ACC216E45FC000AAE55 /* Sources */,
 				99725ACD216E45FC000AAE55 /* Frameworks */,
@@ -122,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99725AE7216E45FC000AAE55 /* Build configuration list for PBXNativeTarget "MAVAWSSNSSubscriptorTests" */;
 			buildPhases = (
+				ADA4A8C3A0C4E90312AB9DA7 /* [CP] Check Pods Manifest.lock */,
 				99725AD5216E45FC000AAE55 /* Sources */,
 				99725AD6216E45FC000AAE55 /* Frameworks */,
 				99725AD7216E45FC000AAE55 /* Resources */,
@@ -188,11 +246,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADA4A8C3A0C4E90312AB9DA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAVAWSSNSSubscriptorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16BD5E887BE79861F25D8D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAVAWSSNSSubscriptor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99725ACC216E45FC000AAE55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99725AFE216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m in Sources */,
+				99725AF9216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99725AFF216E72C8000AAE55 /* MAVAWSSNSSubscriptorManager.m in Sources */,
 				99725ADF216E45FC000AAE55 /* MAVAWSSNSSubscriptorTests.m in Sources */,
+				99725AFA216E7153000AAE55 /* MAVAWSSNSSubscriptorConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +436,7 @@
 		};
 		99725AE5216E45FC000AAE55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A566CF741800347CD80DC283 /* Pods-MAVAWSSNSSubscriptor.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -359,6 +461,7 @@
 		};
 		99725AE6216E45FC000AAE55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCB5C224DC0C467BF08B461 /* Pods-MAVAWSSNSSubscriptor.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +486,7 @@
 		};
 		99725AE8216E45FC000AAE55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8089EEBB2930111D979E9EED /* Pods-MAVAWSSNSSubscriptorTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APZUH93ZJ4;
@@ -400,6 +504,7 @@
 		};
 		99725AE9216E45FC000AAE55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E50C848DAABD2FDFAFB7A4 /* Pods-MAVAWSSNSSubscriptorTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APZUH93ZJ4;
